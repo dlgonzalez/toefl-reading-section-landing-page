@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>TOEFL iBT 2026 — Complete Guide</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/inter@5.0.0/index.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@5.0.0/index.css"/>
+<style>
+  :root{
+    --bg:#0f1115;
+    --panel:#161920;
+    --panel-2:#1c2028;
+    --line:#2a2e38;
+    --ink:#e6e7ea;
+    --muted:#9096a3;
+    --accent:#d4a574;
+    --accent-2:#7fb3a8;
+    --ok:#86b88a;
+    --warn:#d4a574;
+    --err:#c87878;
+    --info:#8aa8d4;
+  }
+  html,body{background:var(--bg);color:var(--ink);font-family:'Inter',system-ui,sans-serif;}
+  .mono{font-family:'JetBrains Mono',monospace;}
+  .glass{background:var(--panel);border:1px solid var(--line);}
+  .fade-in{animation:fade .4s ease both;}
+  @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  .btn{transition:all .2s ease;cursor:pointer;}
+  .btn:hover{transform:translateY(-1px);border-color:var(--accent);}
+  .step-badge{display:inline-flex;align-items:center;justify-content:center;width:1.75rem;height:1.75rem;border-radius:50%;background:var(--accent);color:var(--bg);font-weight:700;font-size:.8rem;margin-right:.5rem;flex-shrink:0}
+  .strategy-card{background:var(--panel-2);border-left:3px solid var(--accent);border-radius:.5rem;padding:.75rem;margin:.5rem 0}
+  .trap-card{background:var(--panel-2);border-left:3px solid var(--err);border-radius:.5rem;padding:.75rem;margin:.5rem 0}
+  .example-box{background:var(--bg);border:1px dashed var(--line);border-radius:.5rem;padding:1rem;margin:.75rem 0}
+  .section-card{transition:all .3s ease;cursor:pointer;position:relative;overflow:hidden}
+  .section-card:hover{transform:translateY(-4px);border-color:var(--accent)}
+  .section-card.available:hover{border-color:var(--ok)}
+  .section-card.coming-soon{opacity:.7}
+  .section-card.coming-soon:hover{opacity:.9}
+  .badge-available{background:var(--ok);color:var(--bg);font-size:.7rem;padding:.2rem .6rem;border-radius:999px;font-weight:700}
+  .badge-coming{background:var(--muted);color:var(--bg);font-size:.7rem;padding:.2rem .6rem;border-radius:999px;font-weight:700}
+  .hero-gradient{background:linear-gradient(135deg,rgba(212,165,116,.1) 0%,rgba(127,179,168,.1) 100%)}
+  .scroll-indicator{animation:bounce 2s infinite}
+  @keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(10px)}}
+</style>
+</head>
+<body class="min-h-screen">
+
+<!-- Header -->
+<header class="sticky top-0 z-40 border-b border-[var(--line)] bg-[rgba(15,17,21,0.9)] backdrop-blur">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <div class="w-9 h-9 rounded-lg bg-gradient-to-br from-[var(--accent)] to-[var(--accent-2)] flex items-center justify-center font-bold text-[var(--bg)]">T</div>
+      <div>
+        <div class="font-bold text-sm sm:text-base">TOEFL iBT 2026</div>
+        <div class="text-xs text-[var(--muted)]">Complete Guide · All Sections</div>
+      </div>
+    </div>
+    <div class="hidden sm:flex items-center gap-4 text-sm">
+      <a href="#overview" class="text-[var(--muted)] hover:text-[var(--ink)] transition">Overview</a>
+      <a href="#sections" class="text-[var(--muted)] hover:text-[var(--ink)] transition">Sections</a>
+      <a href="#changes" class="text-[var(--muted)] hover:text-[var(--ink)] transition">What's New</a>
+    </div>
+  </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero-gradient py-16 sm:py-24">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="text-center max-w-4xl mx-auto">
+      <div class="inline-flex items-center gap-2 pill bg-[var(--accent)]/10 text-[var(--accent)] border border-[var(--accent)]/30 mb-6 px-4 py-2 rounded-full text-sm">
+        <span>🎓</span><span>Updated for January 2026 Format</span>
+      </div>
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+        Master the <span class="text-[var(--accent)]">TOEFL iBT 2026</span><br/>
+        Complete Preparation Guide
+      </h1>
+      <p class="text-lg sm:text-xl text-[var(--muted)] mb-8 leading-relaxed">
+        The TOEFL iBT has been completely redesigned for 2026. Navigate the new adaptive format, master all 4 sections, and achieve your target band score with our comprehensive, scaffolded learning platform.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+        <a href="#sections" class="btn bg-[var(--accent)] hover:bg-[var(--accent)]/90 text-[var(--bg)] font-semibold px-8 py-3 rounded-lg text-center">
+          Explore All Sections →
+        </a>
+        <a href="#changes" class="btn border border-[var(--line)] hover:border-[var(--accent)] text-[var(--ink)] font-semibold px-8 py-3 rounded-lg text-center">
+          What's New in 2026?
+        </a>
+      </div>
+      <div class="scroll-indicator text-[var(--muted)] text-sm">
+        ↓ Scroll to learn more
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Overview Section -->
+<section id="overview" class="py-16">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl sm:text-4xl font-bold mb-4">The 2026 TOEFL at a Glance</h2>
+      <p class="text-[var(--muted)] text-lg max-w-3xl mx-auto">
+        The new TOEFL iBT is shorter, adaptive, and more aligned with real-world academic English. Here's what you need to know.
+      </p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
+      <div class="glass rounded-xl p-6 text-center">
+        <div class="text-3xl mb-2">⏱️</div>
+        <div class="text-2xl font-bold mb-1">~2 hours</div>
+        <div class="text-sm text-[var(--muted)]">Total test time</div>
+      </div>
+      <div class="glass rounded-xl p-6 text-center">
+        <div class="text-3xl mb-2">🎚️</div>
+        <div class="text-2xl font-bold mb-1">Adaptive</div>
+        <div class="text-sm text-[var(--muted)]">Reading & Listening</div>
+      </div>
+      <div class="glass rounded-xl p-6 text-center">
+        <div class="text-3xl mb-2">📊</div>
+        <div class="text-2xl font-bold mb-1">1–6 Band</div>
+        <div class="text-sm text-[var(--muted)]">New scoring scale</div>
+      </div>
+      <div class="glass rounded-xl p-6 text-center">
+        <div class="text-3xl mb-2">🌍</div>
+        <div class="text-2xl font-bold mb-1">CEFR</div>
+        <div class="text-sm text-[var(--muted)]">Aligned A1–C2</div>
+      </div>
+    </div>
+
+    <div class="glass rounded-2xl p-6 sm:p-8">
+      <h3 class="text-2xl font-bold mb-6 flex items-center gap-2">
+        <span class="text-[var(--accent)]">📋</span> Test Structure Overview
+      </h3>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="text-left text-xs uppercase tracking-wider text-[var(--muted)] border-b border-[var(--line)]">
+              <th class="py-3">Section</th>
+              <th>Questions</th>
+              <th>Time</th>
+              <th>Task Types</th>
+              <th>Format</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-[var(--line)]">
+            <tr>
+              <td class="py-4 font-semibold">Reading</td>
+              <td class="mono">~50</td>
+              <td class="mono">~30 min</td>
+              <td class="text-[var(--muted)]">3 task types</td>
+              <td><span class="text-[var(--ok)] text-xs">● Adaptive</span></td>
+            </tr>
+            <tr>
+              <td class="py-4 font-semibold">Listening</td>
+              <td class="mono">47</td>
+              <td class="mono">~29 min</td>
+              <td class="text-[var(--muted)]">4 task types</td>
+              <td><span class="text-[var(--ok)] text-xs">● Adaptive</span></td>
+            </tr>
+            <tr>
+              <td class="py-4 font-semibold">Writing</td>
+              <td class="mono">12</td>
+              <td class="mono">~23 min</td>
+              <td class="text-[var(--muted)]">3 task types</td>
+              <td><span class="text-[var(--muted)] text-xs">● Linear</span></td>
+            </tr>
+            <tr>
+              <td class="py-4 font-semibold">Speaking</td>
+              <td class="mono">11</td>
+              <td class="mono">~8 min</td>
+              <td class="text-[var(--muted)]">2 task types</td>
+              <td><span class="text-[var(--muted)] text-xs">● Linear</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sections Section -->
+<section id="sections" class="py-16 bg-[var(--panel)]">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl sm:text-4xl font-bold mb-4">Explore Each Section</h2>
+      <p class="text-[var(--muted)] text-lg max-w-3xl mx-auto">
+        Dive deep into each section with scaffolded lessons, interactive practice, and realistic mock exams. Start with what's available and check back for updates.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-6">
+      
+      <!-- Reading Section -->
+      <a href="https://dlgonzalez.github.io/TOEFL-Reading-Section/" class="section-card available glass rounded-2xl p-6 block">
+        <div class="flex items-start justify-between mb-4">
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-[var(--accent)] to-[var(--accent-2)] flex items-center justify-center text-2xl">📖</div>
+            <div>
+              <h3 class="text-xl font-bold">Reading Section</h3>
+              <div class="text-sm text-[var(--muted)]">~30 min · 50 questions</div>
+            </div>
+          </div>
+          <span class="badge-available">✓ Available</span>
+        </div>
+        
+        <p class="text-[var(--muted)] text-sm mb-4">
+          Master the 3 task types and 9 question types in the new adaptive Reading section. Learn strategies for Complete the Words, Daily Life texts, and Academic passages.
+        </p>
+
+        <div class="space-y-2 text-sm mb-4">
+          <div class="flex items-center gap-2">
+            <span class="text-[var(--accent)]">•</span>
+            <span>Complete the Words (10 blanks per paragraph)</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="text-[var(--accent)]">•</span>
+            <span>Read in Daily Life (emails, notices, social media)</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="text-[var(--accent)]">•</span>
+            <span>Read an Academic Passage (~200 words)</span>
+          </div>
+        </div>
+
+        <div class="flex items-center justify-between pt-4 border-t border-[var(--line)]">
+          <div class="text-xs text-[var(--muted)]">
+            <span class="mono">8 lessons</span> · <span class="mono">12+ practices</span> · <span class="mono">Mock exam</span>
+          </div>
+          <div class="text-[var(--ok)] text-sm font-semibold">Start Learning →</div>
+        </div>
+      </a>
+
+      <!-- Listening Section -->
+      <div class="section-card coming-soon glass rounded-2xl p-6">
+        <div class="flex items-start justify-between mb-4">
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 rounded-lg bg-[var(--panel-2)] flex items-center justify-center text-2xl">🎧</div>
+            <div>
+              <h3 class="text-xl font-bold">Listening Section</h3>
+              <div class="text-sm text-[var(--muted)]">~29 min · 47 questions</div>
+            </div>
+          </div>
+          <span class="badge-coming">Coming Soon</span>
+        </div>
+        
+        <p class="text-[var(--muted)] text-sm mb-4">
+          Prepare for the 4 task types and 6 question types in the adaptive Listening section. Practice with conversations, announcements, and academic talks.
+        </p>
+
+        <div class="space-y-2 text-sm mb-4">
+          <div class="flex items-center gap-2">
+            <span class="text-[var(--muted)]">•</span>
+            <span>Listen and Choose a Response</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="text-[var(--muted)]">•</span>
+            <span>Listen to a Conversation (2 speakers)</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="text-[var(--muted)]">•</span>
+            <span>Listen to an Announcement</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="text-[var(--muted)]">•</span>
+            <span>Listen to an Academic Talk</span>
+          </div>
+        </div>
+
+        <div class="flex items-center justify-between pt-4 border-t border-[var(--line)]">
+          <div class="text-xs text-[var(--muted)]">
+            <span class="mono">8 lessons</span> · <span class="mono">15+ practices</span> · <span class="mono">Mock exam</span>
+          </div>
+          <div class="text-[var(--muted)] text-sm">In Development</div>
+        </div>
+      </div>
+
+      <!-- Writing Section -->
+      <div class="section-card coming-soon glass rounded-2xl p-6">
+        <div class="flex items-start justify-between mb-4">
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 rounded-lg bg-[var(--panel-2)] flex items-center justify-center text-2xl">✍️</div>
+            <div>
+              <h3 class="text-xl font-bold">Writing Section</h3>
+              <div class="text-sm text-[var(--muted)]">~23 min · 12 questions</div>
+            </div>
+          </div>
+          <span class="badge-coming">Coming Soon</span>
+        </div>
+        
+        <p class="text-[var(--muted)] text-sm mb-4">
+          Master the 3 writing tasks: Build a Sentence, Write an Email, and Write for an Academic Discussion. Learn scoring criteria and strategies for each.
+        </p>
+
+        <div class="space-y-2 text-sm mb-4">
+          <div class="flex items-center gap-2">
+            <span class="text-[var(--muted)]">•</span>
+            <span>Build a Sentence (drag-and-drop grammar)</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="text-[var(--muted)]">•</span>
+            <span>Write an Email (7 minutes, 80-150 words)</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="text-[var(--muted)]">•</span>
+            <span>Write for an Academic Discussion (10 min, 100+ words)</span>
+          </div>
+        </div>
+
+        <div class="flex items-center justify-between pt-4 border-t border-[var(--line)]">
+          <div class="text-xs text-[var(--muted)]">
+            <span class="mono">8 lessons</span> · <span class="mono">10+ practices</span> · <span class="mono">Mock exam</span>
+          </div>
+          <div class="text-[var(--muted)] text-sm">In Development</div>
+        </div>
+      </div>
+
+      <!-- Speaking Section -->
+      <div class="section-card coming-soon glass rounded-2xl p-6">
+        <div class="flex items-start justify-between mb-4">
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 rounded-lg bg-[var(--panel-2)] flex items-center justify-center text-2xl">🎤</div>
+            <div>
+              <h3 class="text-xl font-bold">Speaking Section</h3>
+              <div class="text-sm text-[var(--muted)]">~8 min · 11 questions</div>
+            </div>
+          </div>
+          <span class="badge-coming">Coming Soon</span>
+        </div>
+        
+        <p class="text-[var(--muted)] text-sm mb-4">
+          Prepare for the 2 speaking tasks: Listen and Repeat (7 sentences) and Take an Interview (4 questions, 45 seconds each). Practice pronunciation and fluency.
+        </p>
+
+        <div class="space-y-2 text-sm mb-4">
+          <div class="flex items-center gap-2">
+            <span class="text-[var(--muted)]">•</span>
+            <span>Listen and Repeat (8-12 seconds per sentence)</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="text-[var(--muted)]">•</span>
+            <span>Take an Interview (4 questions, no prep time)</span>
+          </div>
+        </div>
+
+        <div class="flex items-center justify-between pt-4 border-t border-[var(--line)]">
+          <div class="text-xs text-[var(--muted)]">
+            <span class="mono">8 lessons</span> · <span class="mono">10+ practices</span> · <span class="mono">Mock exam</span>
+          </div>
+          <div class="text-[var(--muted)] text-sm">In Development</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- What's New Section -->
+<section id="changes" class="py-16">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl sm:text-4xl font-bold mb-4">What's New in 2026?</h2>
+      <p class="text-[var(--muted)] text-lg max-w-3xl mx-auto">
+        The TOEFL iBT has undergone major changes. Here's everything you need to know about the new format.
+      </p>
+    </div>
+
+    <div class="space-y-6">
+      
+      <!-- Change 1: Adaptive Testing -->
+      <div class="glass rounded-2xl p-6">
+        <div class="flex items-start gap-4">
+          <div class="step-badge shrink-0">1</div>
+          <div class="flex-1">
+            <h3 class="text-xl font-bold mb-2">Multistage Adaptive Testing</h3>
+            <p class="text-[var(--muted)] text-sm mb-4">
+              Reading and Listening sections now use adaptive testing. Your performance in Module 1 determines the difficulty of Module 2.
+            </p>
+            <div class="grid sm:grid-cols-2 gap-3">
+              <div class="strategy-card">
+                <div class="font-semibold text-sm mb-1">Module 1 (Routing)</div>
+                <div class="text-xs text-[var(--muted)]">Mixed difficulty · Determines your Module 2 level</div>
+              </div>
+              <div class="strategy-card">
+                <div class="font-semibold text-sm mb-1">Module 2 (Final)</div>
+                <div class="text-xs text-[var(--muted)]">Easier or harder based on Module 1 performance</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Change 2: New Scoring Scale -->
+      <div class="glass rounded-2xl p-6">
+        <div class="flex items-start gap-4">
+          <div class="step-badge shrink-0">2</div>
+          <div class="flex-1">
+            <h3 class="text-xl font-bold mb-2">New 1–6 Band Scoring Scale</h3>
+            <p class="text-[var(--muted)] text-sm mb-4">
+              The old 0–120 scale has been replaced with a 1–6 band scale aligned with CEFR (Common European Framework of Reference).
+            </p>
+            <div class="grid grid-cols-3 sm:grid-cols-6 gap-2 text-xs">
+              <div class="example-box text-center">
+                <div class="mono font-bold text-[var(--err)]">1.0–1.5</div>
+                <div class="text-[var(--muted)]">A1 · Below Basic</div>
+              </div>
+              <div class="example-box text-center">
+                <div class="mono font-bold text-[var(--warn)]">2.0–2.5</div>
+                <div class="text-[var(--muted)]">A2 · Basic</div>
+              </div>
+              <div class="example-box text-center">
+                <div class="mono font-bold text-yellow-400">3.0–3.5</div>
+                <div class="text-[var(--muted)]">B1 · Intermediate</div>
+              </div>
+              <div class="example-box text-center">
+                <div class="mono font-bold text-[var(--accent-2)]">4.0–4.5</div>
+                <div class="text-[var(--muted)]">B2 · Upper-Int.</div>
+              </div>
+              <div class="example-box text-center">
+                <div class="mono font-bold text-[var(--accent)]">5.0–5.5</div>
+                <div class="text-[var(--muted)]">C1 · Advanced</div>
+              </div>
+              <div class="example-box text-center">
+                <div class="mono font-bold text-[var(--ok)]">6.0</div>
+                <div class="text-[var(--muted)]">C2 · Proficient</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Change 3: New Task Types -->
+      <div class="glass rounded-2xl p-6">
+        <div class="flex items-start gap-4">
+          <div class="step-badge shrink-0">3</div>
+          <div class="flex-1">
+            <h3 class="text-xl font-bold mb-2">New Task Types</h3>
+            <p class="text-[var(--muted)] text-sm mb-4">
+              The 2026 TOEFL introduces new task types that reflect real-world academic and campus-life English.
+            </p>
+            <div class="space-y-3">
+              <div class="strategy-card">
+                <div class="font-semibold text-sm mb-1">📖 Reading: Complete the Words</div>
+                <div class="text-xs text-[var(--muted)]">Fill in missing letters in academic paragraphs (10 blanks)</div>
+              </div>
+              <div class="strategy-card">
+                <div class="font-semibold text-sm mb-1">✍️ Writing: Build a Sentence</div>
+                <div class="text-xs text-[var(--muted)]">Drag-and-drop word chunks to form grammatically correct sentences</div>
+              </div>
+              <div class="strategy-card">
+                <div class="font-semibold text-sm mb-1">🎤 Speaking: Listen and Repeat</div>
+                <div class="text-xs text-[var(--muted)]">Repeat 7 spoken sentences of increasing complexity</div>
+              </div>
+              <div class="strategy-card">
+                <div class="font-semibold text-sm mb-1">📖 Reading: Select the Sentence (NEW)</div>
+                <div class="text-xs text-[var(--muted)]">Click the sentence that matches a functional description</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Change 4: Shorter Test -->
+      <div class="glass rounded-2xl p-6">
+        <div class="flex items-start gap-4">
+          <div class="step-badge shrink-0">4</div>
+          <div class="flex-1">
+            <h3 class="text-xl font-bold mb-2">Shorter, More Focused Test</h3>
+            <p class="text-[var(--muted)] text-sm mb-4">
+              The total test time has been reduced to under 2 hours, making it more efficient while maintaining rigorous assessment.
+            </p>
+            <div class="grid sm:grid-cols-2 gap-3">
+              <div class="example-box">
+                <div class="text-xs text-[var(--muted)] mb-1">Old Format (pre-2026)</div>
+                <div class="text-lg font-bold mono">3–4 hours</div>
+              </div>
+              <div class="example-box">
+                <div class="text-xs text-[var(--muted)] mb-1">New Format (2026)</div>
+                <div class="text-lg font-bold mono text-[var(--ok)]">~2 hours</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Change 5: Real-World Focus -->
+      <div class="glass rounded-2xl p-6">
+        <div class="flex items-start gap-4">
+          <div class="step-badge shrink-0">5</div>
+          <div class="flex-1">
+            <h3 class="text-xl font-bold mb-2">Real-World Academic & Campus-Life Focus</h3>
+            <p class="text-[var(--muted)] text-sm mb-4">
+              All tasks now reflect authentic language use in university settings and everyday campus life.
+            </p>
+            <div class="grid sm:grid-cols-2 gap-3 text-sm">
+              <div class="flex items-start gap-2">
+                <span class="text-[var(--accent)]">✓</span>
+                <span>Emails, notices, social media posts</span>
+              </div>
+              <div class="flex items-start gap-2">
+                <span class="text-[var(--accent)]">✓</span>
+                <span>Conversations, announcements</span>
+              </div>
+              <div class="flex items-start gap-2">
+                <span class="text-[var(--accent)]">✓</span>
+                <span>Academic passages (no specialized knowledge required)</span>
+              </div>
+              <div class="flex items-start gap-2">
+                <span class="text-[var(--accent)]">✓</span>
+                <span>Multiple accents (North America, UK, Australia)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Scoring Section -->
+<section class="py-16 bg-[var(--panel)]">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl sm:text-4xl font-bold mb-4">Understanding Your Scores</h2>
+      <p class="text-[var(--muted)] text-lg max-w-3xl mx-auto">
+        The new scoring system provides clearer, more intuitive feedback on your English proficiency level.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="glass rounded-2xl p-6">
+        <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
+          <span class="text-[var(--accent)]">📊</span> Section Scores
+        </h3>
+        <p class="text-[var(--muted)] text-sm mb-4">
+          Each section (Reading, Listening, Writing, Speaking) receives a score on the 1–6 scale, reported in half-point increments (e.g., 4.0, 4.5, 5.0).
+        </p>
+        <div class="example-box text-sm">
+          <div class="text-xs text-[var(--muted)] mb-2">Example Score Report:</div>
+          <div class="space-y-1 mono text-xs">
+            <div>Reading: <span class="text-[var(--accent)]">5.0</span> (C1)</div>
+            <div>Listening: <span class="text-[var(--accent)]">4.5</span> (B2)</div>
+            <div>Writing: <span class="text-[var(--accent)]">4.0</span> (B2)</div>
+            <div>Speaking: <span class="text-[var(--accent)]">5.5</span> (C1)</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="glass rounded-2xl p-6">
+        <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
+          <span class="text-[var(--accent)]">🎯</span> Overall Score
+        </h3>
+        <p class="text-[var(--muted)] text-sm mb-4">
+          Your overall score is the average of your 4 section scores, rounded to the nearest half band.
+        </p>
+        <div class="example-box text-sm">
+          <div class="text-xs text-[var(--muted)] mb-2">Calculation Example:</div>
+          <div class="space-y-1 mono text-xs">
+            <div>(5.0 + 4.5 + 4.0 + 5.5) ÷ 4 = 4.75</div>
+            <div>Rounded to nearest half: <span class="text-[var(--accent)] font-bold">5.0</span></div>
+            <div class="text-[var(--muted)]">Overall Band: 5.0 (C1)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="glass rounded-2xl p-6 mt-6">
+      <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
+        <span class="text-[var(--accent)]">🔄</span> Dual Score Reporting (Transition Period)
+      </h3>
+      <p class="text-[var(--muted)] text-sm mb-4">
+        For a 2-year transition period, score reports will include both the new 1–6 scale and a comparable score on the old 0–120 scale. This helps institutions adapt to the new format.
+      </p>
+      <div class="grid sm:grid-cols-2 gap-3">
+        <div class="strategy-card">
+          <div class="text-xs text-[var(--muted)] mb-1">New Scale</div>
+          <div class="text-lg font-bold mono text-[var(--accent)]">1–6</div>
+        </div>
+        <div class="strategy-card">
+          <div class="text-xs text-[var(--muted)] mb-1">Legacy Scale (for reference)</div>
+          <div class="text-lg font-bold mono text-[var(--muted)]">0–120</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section class="py-16">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+    <div class="glass rounded-2xl p-8 sm:p-12">
+      <h2 class="text-3xl sm:text-4xl font-bold mb-4">Ready to Start Your Preparation?</h2>
+      <p class="text-[var(--muted)] text-lg mb-8">
+        Begin with the Reading section — our most comprehensive module with 8 scaffolded lessons, interactive practice, and a full mock exam.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="https://dlgonzalez.github.io/TOEFL-Reading-Section/" class="btn bg-[var(--accent)] hover:bg-[var(--accent)]/90 text-[var(--bg)] font-semibold px-8 py-3 rounded-lg text-center">
+          Start Reading Section →
+        </a>
+        <a href="#sections" class="btn border border-[var(--line)] hover:border-[var(--accent)] text-[var(--ink)] font-semibold px-8 py-3 rounded-lg text-center">
+          View All Sections
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="border-t border-[var(--line)] py-8">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-6 mb-8">
+      <div>
+        <div class="font-bold mb-3">TOEFL iBT 2026</div>
+        <div class="text-xs text-[var(--muted)]">Complete preparation guide for the new test format.</div>
+      </div>
+      <div>
+        <div class="font-bold mb-3 text-sm">Sections</div>
+        <div class="space-y-2 text-xs">
+          <div><a href="https://dlgonzalez.github.io/TOEFL-Reading-Section/" class="text-[var(--muted)] hover:text-[var(--ink)] transition">✓ Reading</a></div>
+          <div><span class="text-[var(--muted)]">○ Listening (Coming Soon)</span></div>
+          <div><span class="text-[var(--muted)]">○ Writing (Coming Soon)</span></div>
+          <div><span class="text-[var(--muted)]">○ Speaking (Coming Soon)</span></div>
+        </div>
+      </div>
+      <div>
+        <div class="font-bold mb-3 text-sm">Resources</div>
+        <div class="space-y-2 text-xs">
+          <div><a href="#overview" class="text-[var(--muted)] hover:text-[var(--ink)] transition">Test Overview</a></div>
+          <div><a href="#changes" class="text-[var(--muted)] hover:text-[var(--ink)] transition">What's New</a></div>
+          <div><a href="https://www.ets.org/toefl" target="_blank" class="text-[var(--muted)] hover:text-[var(--ink)] transition">Official ETS Site ↗</a></div>
+        </div>
+      </div>
+      <div>
+        <div class="font-bold mb-3 text-sm">Based On</div>
+        <div class="text-xs text-[var(--muted)]">
+          The Official Guide to the TOEFL iBT® Test: Pocket Edition (ETS, 2026)
+        </div>
+      </div>
+    </div>
+    <div class="border-t border-[var(--line)] pt-6 text-center text-xs text-[var(--muted)]">
+      <p>This is an independent educational resource. TOEFL® is a registered trademark of ETS. This site is not endorsed by or affiliated with ETS.</p>
+      <p class="mt-2">© 2026 TOEFL Preparation Guide · Built for students, by educators</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Smooth scrolling for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});
+
+// Add scroll effect to header
+let lastScroll = 0;
+window.addEventListener('scroll', () => {
+  const header = document.querySelector('header');
+  const currentScroll = window.pageYOffset;
+  
+  if (currentScroll > 100) {
+    header.style.boxShadow = '0 4px 6px rgba(0,0,0,0.3)';
+  } else {
+    header.style.boxShadow = 'none';
+  }
+  
+  lastScroll = currentScroll;
+});
+</script>
+
+</body>
+</html>
